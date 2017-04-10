@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>First CSS Project</title>
+	<style>
+		.pp {
+			background: black;
+		}
+		#p1 {
+			width:500px;
+			height:500px;
+			padding-top:250px;
+			color: red ;
+			transition: font-size 2s,color 2s,transform 2s;
+		}
+            /*!important
+			*#p1 {
+			      color: red ;
+			      transition: font-size 5s;
+		         }
+			*transition: font-size 5s; >>動畫，過5秒會變大
+			*
+			*
+			*
+            */
+		#p1:hover {
+			font-size:20px;
+			color: yellow;
+			transform:rotate(180deg);
+		}
+
+		#p2 {
+			color: green;
+		}
+	</style>
+</head>
+<body>
+	<p id="p1" class="pp">Fuck you</p>
+
+	<p id="p2" class="pp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia odio quod fugiat sapiente facere laborum aliquam repudiandae tempore mollitia doloremque, in quae commodi labore magnam recusandae earum sit, hic qui?</p>
+</body>
+</html>
